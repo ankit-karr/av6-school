@@ -1,0 +1,2282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blossoms Special School</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link rel="shortcut icon" href="img/logoBlosoms.jpeg " />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yantramanav:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <!-- start classes -->
+  <style>
+    .training-carousel .training-item {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .training-img {
+      height: 260px;
+      overflow: hidden;
+      position: relative;
+      flex: 0 0 auto;
+    }
+
+    .training-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .training-item .rounded-bottom {
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .training-item .rounded-bottom p {
+      flex: 1 1 auto;
+      margin-bottom: 1rem;
+    }
+
+    .training-item .btn {
+      margin-top: auto;
+    }
+
+    .training-item .h4 {
+      text-decoration: none;
+    }
+  </style>
+  <!-- end classes -->
+
+  <!-- teachers -->
+
+  <style>
+    .team-carousel .team-item {
+      height: 460px !important;
+      display: flex !important;
+      flex-direction: column !important;
+    }
+
+    .team-carousel .team-img {
+      height: 320px !important;
+      overflow: hidden !important;
+      flex: 0 0 320px !important;
+      background: #6c757d;
+    }
+
+    .team-carousel .team-img img {
+      width: 100% !important;
+      height: 100% !important;
+      max-width: 100% !important;
+      max-height: 100% !important;
+      object-fit: cover !important;
+      object-position: center top !important;
+      display: block !important;
+    }
+
+    .team-carousel .team-content {
+      flex: 1 1 auto !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      padding: 16px !important;
+      text-align: center;
+    }
+
+    .team-carousel .team-content .h4 {
+      margin-bottom: 6px;
+      text-decoration: none;
+    }
+  </style>
+
+  <!-- end teachers -->
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-secondary px-5 d-none d-lg-block">
+      <div class="row gx-0 align-items-center" style="height: 45px">
+        <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+          <div class="d-flex flex-wrap">
+            <a
+              href="#"
+              class="text-light me-4"
+              style="color: #002366 !important"
+              ><i class="fas fa-map-marker-alt me-2"></i>Find A Location</a
+            >
+            <a
+              href="#"
+              class="text-light me-4"
+              style="color: #002366 !important"
+              ><i class="fas fa-phone-alt me-2"></i>+91 9749330318</a
+            >
+            <a
+              href="#"
+              class="text-light me-0"
+              style="color: #002366 !important"
+              ><i class="fas fa-envelope me-2"></i
+              >blossomsspecialschoolcob@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-4 text-center text-lg-end">
+          <div class="d-flex justify-content-end">
+            <div class="border-end border-start py-1">
+              <a href="#" class="btn text-primary"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </div>
+            <div class="border-end py-1">
+              <a href="#" class="btn text-primary"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+            <div class="border-end py-1">
+              <a href="#" class="btn text-primary"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <div class="border-end py-1">
+              <a href="#" class="btn text-primary"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="#" class="navbar-brand p-0">
+          <h1 class="text-primary m-0">
+            <img
+              src="/img/logoBlosoms.jpeg"
+              alt="Blossoms Special School"
+              class="me-3"
+              style="width: 38px; height: 38px; object-fit: contain"
+            />Blossoms Special School
+          </h1>
+          <!-- <img src="img/logo.png" alt="Logo"> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-link off-white-bg">About</a>
+            <a href="event.html" class="nav-item nav-link off-white-bg"
+              >Events</a
+            >
+            <a href="blog.html" class="nav-item nav-link off-white-bg">Blogs</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="classes.html" class="dropdown-item">Our classes</a>
+                <a href="training.html" class="dropdown-item">Dance Training</a>
+                <a href="team.html" class="dropdown-item">Our Team</a>
+                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                <a href="gallery.html" class="dropdown-item">Dance Gallery</a>
+                <a href="404.html" class="dropdown-item">404 Page</a>
+              </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+          </div>
+          <a
+            href="#"
+            class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
+            >Register Now</a
+          >
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Carousel Start -->
+    <div class="header-carousel owl-carousel">
+      <div class="header-carousel-item">
+        <img src="img/schoolProgram.jpeg" class="img-fluid w-100" alt="Image" />
+        <div class="carousel-caption">
+          <div class="carousel-caption-content p-3" style="max-width: 900px">
+            <h1
+              class="display-1 text-capitalize text-white mb-4 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              Welcome to Our Special School
+            </h1>
+            <p class="fs-5 wow fadeInUp" data-wow-delay="0.5s">
+              We are a dedicated special education institution committed to
+              nurturing children with diverse learning needs in a safe,
+              structured, and compassionate environment. Our goal is to help
+              every child grow academically, socially, emotionally, and
+              independently
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="header-carousel-item">
+        <img src="img/giftSchool.jpeg" class="img-fluid w-100" alt="Image" />
+        <div class="carousel-caption">
+          <div class="carousel-caption-content p-3" style="max-width: 900px">
+            <h1 class="display-1 text-capitalize text-white mb-4">
+              Individualized Learning Approach
+            </h1>
+            <p class="fs-5">
+              Every child is unique. We follow Individualized Education Programs
+              (IEPs) designed after careful assessment of each student’s
+              abilities, challenges, and interests. Our multidisciplinary team
+              collaborates to create tailored learning plans that address
+              academic goals, life skills, social development, and therapeutic
+              needs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="header-carousel-item">
+        <img src="img/schoolStudent.jpeg" class="img-fluid w-100" alt="Image" />
+        <div class="carousel-caption">
+          <div class="carousel-caption-content p-3" style="max-width: 900px">
+            <h1 class="display-1 text-capitalize text-white mb-4">
+              Our Mission
+            </h1>
+            <p class="fs-5">
+              To empower children with special needs through individualized
+              education, therapeutic support, and life-skill development,
+              enabling them to achieve confidence, dignity, and meaningful
+              participation in society.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.1s">
+            <div class="border bg-secondary rounded">
+              <img
+                src="img/aboutSchool2.jpeg"
+                class="img-fluid w-100 rounded"
+                alt="Image"
+              />
+            </div>
+          </div>
+          <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
+            <h4 class="text-secondary sub-title fw-bold">about Us</h4>
+            <h1 class="display-3 mb-4">
+              <strong class="text-primary">Blossoms Special School</strong>, We
+              have been teaching dance since 2023
+            </h1>
+            <p>
+              For more than 2 years, Blossoms Special School has been deeply
+              committed to empowering children with special needs through
+              dedicated education, therapeutic support, and inclusive values.
+              Established in 2001, our school was founded with a clear
+              purpose—to create a safe, understanding, and structured learning
+              environment where every child is respected for who they are and
+              supported in reaching their fullest potential.
+            </p>
+            <p class="mb-4">
+              Over the years, we have grown not just in experience, but in
+              understanding the diverse needs of children with developmental,
+              learning, and communication challenges. Our long-standing journey
+              has allowed us to refine our teaching methodologies, strengthen
+              our therapeutic programs, and build a compassionate team of
+              educators and professionals who truly understand special
+              education.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Counter Facts Start -->
+    <div class="container-fluid counter-facts py-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="counter">
+              <div
+                class="counter-icon w-100 d-flex align-items-center justify-content-center"
+              >
+                <h3>Years of Experience</h3>
+              </div>
+              <div
+                class="counter-content d-flex align-items-center justify-content-center mt-4"
+              >
+                <span class="counter-value" data-toggle="counter-up">3</span>
+                <h4
+                  class="text-secondary mb-0"
+                  style="font-weight: 600; font-size: 25px"
+                >
+                  +
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="counter">
+              <div
+                class="counter-icon w-100 d-flex align-items-center justify-content-center"
+              >
+                <h3>Special Educators</h3>
+              </div>
+              <div
+                class="counter-content d-flex align-items-center justify-content-center mt-4"
+              >
+                <span class="counter-value" data-toggle="counter-up">35</span>
+                <h4
+                  class="text-secondary mb-0"
+                  style="font-weight: 600; font-size: 25px"
+                >
+                  +
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="counter">
+              <div
+                class="counter-icon w-100 d-flex align-items-center justify-content-center"
+              >
+                <h3>Total Brunch</h3>
+              </div>
+              <div
+                class="counter-content d-flex align-items-center justify-content-center mt-4"
+              >
+                <span class="counter-value" data-toggle="counter-up">5</span>
+                <h4
+                  class="text-secondary mb-0"
+                  style="font-weight: 600; font-size: 25px"
+                >
+                  +
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
+            <div class="counter">
+              <div
+                class="counter-icon w-100 d-flex align-items-center justify-content-center"
+              >
+                <h3>Students Supported</h3>
+              </div>
+              <div
+                class="counter-content d-flex align-items-center justify-content-center mt-4"
+              >
+                <span class="counter-value" data-toggle="counter-up">327</span>
+                <h4
+                  class="text-secondary mb-0"
+                  style="font-weight: 600; font-size: 25px"
+                >
+                  +
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Counter Facts End -->
+
+    <!-- Training Start -->
+    <div class="container-fluid training py-5">
+      <div class="container py-5">
+        <div class="pb-5">
+          <div class="row g-4 align-items-end">
+            <div class="col-xl-8">
+              <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">
+                Our Classes
+              </h1>
+            </div>
+            <div
+              class="col-xl-4 text-xl-end wow fadeInUp"
+              data-wow-delay="0.3s"
+            ></div>
+          </div>
+        </div>
+
+        <div
+          class="training-carousel owl-carousel pt-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div
+            class="training-item bg-white rounded wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="training-img rounded-top">
+              <img
+                src="img/classImage11.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Individualized Education"
+              />
+              <h1
+                class="fs-1 fw-bold bg-primary text-white d-inline-block rounded p-2 position-absolute"
+                style="top: 0; left: 0"
+              >
+                01
+              </h1>
+            </div>
+            <div class="rounded-bottom border border-top-0 p-4">
+              <a href="#" class="h4 mb-3 d-block off-white-bg"
+                >Individualized Education</a
+              >
+              <p class="mb-3 off-white-bg">
+                This moment reflects our commitment to personalized learning,
+                where teachers support each child.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="training-item bg-white rounded wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="training-img rounded-top">
+              <img
+                src="img/classImage2.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Nurturing Growth, Step by Step"
+              />
+              <h1
+                class="fs-1 fw-bold bg-primary text-white d-inline-block rounded p-2 position-absolute"
+                style="top: 0; left: 0"
+              >
+                02
+              </h1>
+            </div>
+            <div class="rounded-bottom border border-top-0 p-4">
+              <a href="#" class="h4 mb-3 d-block off-white-bg"
+                >Nurturing Growth, Step by Step</a
+              >
+              <p class="mb-3 off-white-bg">
+                Assessing each child’s needs and strengths to plan the right
+                learning support.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="training-item bg-white rounded wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="training-img rounded-top">
+              <img
+                src="img/classImage3.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Guided Learning Support"
+              />
+              <h1
+                class="fs-1 fw-bold bg-primary text-white d-inline-block rounded p-2 position-absolute"
+                style="top: 0; left: 0"
+              >
+                03
+              </h1>
+            </div>
+            <div class="rounded-bottom border border-top-0 p-4">
+              <a href="#" class="h4 mb-3 d-block off-white-bg"
+                >Guided Learning Support</a
+              >
+              <p class="mb-3 off-white-bg">
+                Step-by-step teaching to improve attention, writing practice,
+                and confidence.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="training-item bg-white rounded wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
+            <div class="training-img rounded-top">
+              <img
+                src="img/classImage4.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Celebrations & Social Skills"
+              />
+              <h1
+                class="fs-1 fw-bold bg-primary text-white d-inline-block rounded p-2 position-absolute"
+                style="top: 0; left: 0"
+              >
+                04
+              </h1>
+            </div>
+            <div class="rounded-bottom border border-top-0 p-4">
+              <a href="#" class="h4 mb-3 d-block off-white-bg"
+                >Celebrations & Social Skills</a
+              >
+              <p class="mb-3 off-white-bg">
+                Cultural activities that encourage bonding, participation, and
+                self-expression.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="training-item bg-white rounded wow fadeInUp"
+            data-wow-delay="0.9s"
+          >
+            <div class="training-img rounded-top">
+              <img
+                src="img/classImage8.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Learning Through Activities"
+              />
+              <h1
+                class="fs-1 fw-bold bg-primary text-white d-inline-block rounded p-2 position-absolute"
+                style="top: 0; left: 0"
+              >
+                05
+              </h1>
+            </div>
+            <div class="rounded-bottom border border-top-0 p-4">
+              <a href="#" class="h4 mb-3 d-block off-white-bg"
+                >Learning Through Activities</a
+              >
+              <p class="mb-3 off-white-bg">
+                Hands-on tasks that build fine motor skills and independent
+                thinking.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Training End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid team pb-5">
+      <div class="container pb-5">
+        <div class="pb-5">
+          <h4
+            class="text-secondary sub-title fw-bold wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            Our Teachers
+          </h4>
+          <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">
+            Our Special Educators
+          </h1>
+        </div>
+
+        <div
+          class="team-carousel owl-carousel pt-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/anusreeBiswas.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Anusree Biswas"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Anusree Biswas</a>
+              <p class="text-primary off-white-bg">Special Educator</p>
+            </div>
+          </div>
+
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/ashifaMondal.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Ashifa Mondal"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Ashifa Mondal</a>
+              <p class="text-primary off-white-bg">Special Educator</p>
+            </div>
+          </div>
+
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/biswajoyBanerjee.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Biswajoy Banerjee"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Biswajoy Banerjee</a>
+              <p class="text-primary off-white-bg">Special Educator</p>
+            </div>
+          </div>
+
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/bubaiRoy.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Bubai Roy"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Bubai Roy</a>
+              <p class="text-primary off-white-bg">Special Educator</p>
+            </div>
+          </div>
+
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.9s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/priyaPaul.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Priya Paul"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Priya Paul</a>
+              <p class="text-primary off-white-bg">Special Educator</p>
+            </div>
+          </div>
+
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.9s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/dr.subrotoSikdar-physiotherapist.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Dr. Subroto Sikdar"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Dr. Subroto Sikdar</a>
+              <p class="text-primary off-white-bg">Physiotherapist</p>
+            </div>
+          </div>
+
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.9s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/payelRol.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Payel Roy"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Payel Roy</a>
+              <p class="text-primary off-white-bg">Special Educator</p>
+            </div>
+          </div>
+
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.9s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/pujaDey.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Puja Dey"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Puja Dey</a>
+              <p class="text-primary off-white-bg">Special Educator</p>
+            </div>
+          </div>
+
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.9s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/renuPaul.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Renu Paul"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Renu Paul</a>
+              <p class="text-primary off-white-bg">Special Educator</p>
+            </div>
+          </div>
+
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.9s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/rumaSen.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Ruma Sen"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Ruma Sen</a>
+              <p class="text-primary off-white-bg">Special Educator</p>
+            </div>
+          </div>
+
+          <div
+            class="team-item border rounded wow fadeInUp"
+            data-wow-delay="0.9s"
+          >
+            <div class="team-img bg-secondary rounded-top">
+              <img
+                src="img/teacher/sujaySarkar.jpeg"
+                class="img-fluid rounded-top w-100"
+                alt="Sujay Sarkar"
+              />
+            </div>
+            <div class="team-content">
+              <a href="#" class="h4 off-white-bg">Sujay Sarkar</a>
+              <p class="text-primary off-white-bg">Special Educator</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Video Gallery Start -->
+    <div class="container-fluid gallery pb-5">
+      <div class="container pb-5">
+        <div class="pb-5">
+          <h4
+            class="text-secondary sub-title fw-bold wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            Dance Gallery
+          </h4>
+          <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">
+            Our Dance class gallery
+          </h1>
+        </div>
+        <div class="tab-class wow fadeInUp" data-wow-delay="0.1s">
+          <ul class="nav nav-pills d-inline-flex justify-content-center pb-4">
+            <li
+              class="nav-item bg-light border border-primary rounded-pill mb-4"
+            >
+              <a
+                class="d-flex py-2 px-5 rounded-pill active"
+                data-bs-toggle="pill"
+                href="#GalleryTab-1"
+              >
+                <span class="text-dark">All</span>
+              </a>
+            </li>
+            <li
+              class="nav-item bg-light border border-primary rounded-pill mb-4"
+            >
+              <a
+                class="d-flex py-2 px-5 rounded-pill"
+                data-bs-toggle="pill"
+                href="#GalleryTab-2"
+              >
+                <span class="text-dark">Dance Practice</span>
+              </a>
+            </li>
+            <li
+              class="nav-item bg-light border border-primary rounded-pill mb-4"
+            >
+              <a
+                class="d-flex py-2 px-5 rounded-pill"
+                data-bs-toggle="pill"
+                href="#GalleryTab-3"
+              >
+                <span class="text-dark">Dance Training</span>
+              </a>
+            </li>
+            <li
+              class="nav-item bg-light border border-primary rounded-pill mb-4"
+            >
+              <a
+                class="d-flex py-2 px-5 rounded-pill"
+                data-bs-toggle="pill"
+                href="#GalleryTab-4"
+              >
+                <span class="text-dark">Dance Growth</span>
+              </a>
+            </li>
+            <li
+              class="nav-item bg-light border border-primary rounded-pill mb-4"
+            >
+              <a
+                class="d-flex py-2 px-5 rounded-pill"
+                data-bs-toggle="pill"
+                href="#GalleryTab-5"
+              >
+                <span class="text-dark">Dance Improvement</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="GalleryTab-1" class="tab-pane fade show p-0 active">
+              <div class="row g-2">
+                <div
+                  class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  <div class="video h-100">
+                    <img
+                      src="img/class-2.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp"
+                  data-wow-delay="0.5s"
+                >
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+                  data-wow-delay="0.7s"
+                >
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp"
+                  data-wow-delay="0.9s"
+                >
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <div class="video h-100">
+                    <img
+                      src="img/class-2.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-6 col-lg-3 col-xl-2 wow fadeInUp"
+                  data-wow-delay="0.5s"
+                >
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInUp"
+                  data-wow-delay="0.7s"
+                >
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-6 col-md-6 col-lg-3 col-xl-2 wow fadeInUp"
+                  data-wow-delay="0.9s"
+                >
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="GalleryTab-2" class="tab-pane fade show p-0">
+              <div class="row g-2">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-2.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-2.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="GalleryTab-3" class="tab-pane fade show p-0">
+              <div class="row g-2">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-2.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-2.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="GalleryTab-4" class="tab-pane fade show p-0">
+              <div class="row g-2">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-2.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-2.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="GalleryTab-5" class="tab-pane fade show p-0">
+              <div class="row g-2">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-2.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-2.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-1.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                  <div class="video h-100">
+                    <img
+                      src="img/class-3.jpg"
+                      class="img-fluid rounded w-100 h-100"
+                      style="object-fit: cover"
+                      alt=""
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-play"
+                      data-bs-toggle="modal"
+                      data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                      data-bs-target="#videoModal"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Video -->
+    <div
+      class="modal fade"
+      id="videoModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- 16:9 aspect ratio -->
+            <div class="ratio ratio-16x9">
+              <iframe
+                class="embed-responsive-item"
+                src=""
+                id="video"
+                allowfullscreen
+                allowscriptaccess="always"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Gallery End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial pb-5">
+      <div class="container pb-5">
+        <div class="pb-5">
+          <h4
+            class="text-secondary sub-title fw-bold wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            OUR CLIENTS RIVIEWS
+          </h4>
+          <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">
+            What Our Clients Say
+          </h1>
+        </div>
+        <div
+          class="owl-carousel testimonial-carousel pt-5 wow fadeInUp"
+          data-wow-delay="0.2s"
+        >
+          <div class="testimonial-item border text-center rounded">
+            <div
+              class="rounded-circle position-absolute"
+              style="
+                width: 100px;
+                height: 100px;
+                top: 25px;
+                left: 50%;
+                transform: translateX(-50%);
+              "
+            >
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-1.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="position-relative" style="margin-top: 140px">
+              <h5 class="mb-0">Person Name</h5>
+              <p>Profession</p>
+              <div class="d-flex justify-content-center">
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-content p-4">
+              <p class="fs-5 mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitati eiusmod tempor
+                incididunt.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item border text-center rounded">
+            <div
+              class="rounded-circle position-absolute"
+              style="
+                width: 100px;
+                height: 100px;
+                top: 25px;
+                left: 50%;
+                transform: translateX(-50%);
+              "
+            >
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-2.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="position-relative" style="margin-top: 140px">
+              <h5 class="mb-0">Person Name</h5>
+              <p>Profession</p>
+              <div class="d-flex justify-content-center">
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-content p-4">
+              <p class="fs-5 mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitati eiusmod tempor
+                incididunt.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item border text-center rounded">
+            <div
+              class="rounded-circle position-absolute"
+              style="
+                width: 100px;
+                height: 100px;
+                top: 25px;
+                left: 50%;
+                transform: translateX(-50%);
+              "
+            >
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-3.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="position-relative" style="margin-top: 140px">
+              <h5 class="mb-0">Person Name</h5>
+              <p>Profession</p>
+              <div class="d-flex justify-content-center">
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-content p-4">
+              <p class="fs-5 mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitati eiusmod tempor
+                incididunt.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item border text-center rounded">
+            <div
+              class="rounded-circle position-absolute"
+              style="
+                width: 100px;
+                height: 100px;
+                top: 25px;
+                left: 50%;
+                transform: translateX(-50%);
+              "
+            >
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-3.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="position-relative" style="margin-top: 140px">
+              <h5 class="mb-0">Person Name</h5>
+              <p>Profession</p>
+              <div class="d-flex justify-content-center">
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star text-secondary"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-content p-4">
+              <p class="fs-5 mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitati eiusmod tempor
+                incididunt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <div class="footer-item">
+                <h4 class="text-white mb-4">JustDanc</h4>
+                <p class="text-white mb-3">
+                  Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit consectetur
+                  adipiscing elit.
+                </p>
+                <div class="d-flex">
+                  <a
+                    class="btn btn-lg-square btn-primary rounded-circle me-2"
+                    href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                    href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                    href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                    href=""
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="text-white mb-4">Address</h4>
+              <div class="d-flex align-items-center mb-3">
+                <a
+                  class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                  href=""
+                  ><i class="fas fa-map-marker-alt"></i
+                ></a>
+                <div class="text-white ms-2">
+                  <p class="mb-0">0123.. Street, New York, USA</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <a
+                  class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                  href=""
+                  ><i class="fa fa-phone-alt"></i
+                ></a>
+                <div class="text-white ms-2">
+                  <p class="mb-0">+012 345 67890</p>
+                  <p class="mb-0">+012 345 67890</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center">
+                <a
+                  class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                  href=""
+                  ><i class="fas fa-envelope"></i
+                ></a>
+                <div class="text-white ms-2">
+                  <p class="mb-0">info@example.com</p>
+                  <p class="mb-0">info@example.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="text-white mb-4">Quick Links</h4>
+              <a href="#" class="footer-link"> About Us</a>
+              <a href="#" class="footer-link"> Classes</a>
+              <a href="#" class="footer-link"> Privacy Policy</a>
+              <a href="#" class="footer-link"> Terms & Conditions</a>
+              <a href="#" class="footer-link"> Schedule</a>
+              <a href="#" class="footer-link"> FAQ</a>
+              <a href="#" class="footer-link"> Contact Us</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <div class="footer-item">
+                <h4 class="text-white mb-4">Newsletter</h4>
+                <p class="text-white mb-3">
+                  Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit consectetur
+                  adipiscing elit.
+                </p>
+                <div class="position-relative mx-auto rounded-pill">
+                  <input
+                    class="form-control rounded-pill w-100 py-3 ps-4 pe-5"
+                    type="text"
+                    placeholder="Enter your email"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"
+                  >
+                    SignUp
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-md-0">
+            <span class="text-white"
+              ><a href="#" class="border-bottom text-white"
+                ><i class="fas fa-copyright text-light me-2"></i>Your Site
+                Name</a
+              >, All right reserved.</span
+            >
+          </div>
+          <div class="col-md-6 text-center text-md-end text-white">
+            <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+            <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+            <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+            Designed By
+            <a class="border-bottom text-white" href="https://htmlcodex.com"
+              >HTML Codex</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
